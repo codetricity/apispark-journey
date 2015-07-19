@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>APISpark Journey</title>
+    <description>Personal log on the use of APISpark from zero experience.
+</description>
+    <link>https://j4.apispark.net/v1/blog/</link>
+    <atom:link href="https://j4.apispark.net/v1/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 19 Jul 2015 12:19:40 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2015 12:19:40 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Preparation</title>
+        <description>&lt;p&gt;Started preparations for the APISpark journey.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jul 2015 15:10:06 -0700</pubDate>
+        <link>https://j4.apispark.net/v1/blog/update/2015/07/19/configuration.html</link>
+        <guid isPermaLink="true">https://j4.apispark.net/v1/blog/update/2015/07/19/configuration.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
