@@ -2,7 +2,7 @@
 title: APISpark Journey
 email: coda@o3rocket.com
 description: > # this means to ignore newlines until "baseurl:"
-  Perosnal log on the use of APISpark from zero experience.
+  Personal log on the use of APISpark from zero experience.
 baseurl: "/apispark-journey" # the subpath of your site, e.g. /blog/
 url: "http://codetricity.github.io/" # the base hostname & protocol for your site
 twitter_username: craigoda1
