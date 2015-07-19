@@ -4,10 +4,10 @@
     <title>APISpark Journey</title>
     <description>Personal log on the use of APISpark from zero experience.
 </description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Jul 2015 07:49:19 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2015 07:49:19 -0700</lastBuildDate>
+    <link>https://j3.apispark.net/v1//blog//</link>
+    <atom:link href="https://j3.apispark.net/v1//blog//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 19 Jul 2015 09:28:34 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2015 09:28:34 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -15,8 +15,8 @@
         <description>&lt;p&gt;Started preparations for the APISpark journey.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Jul 2015 15:10:06 -0700</pubDate>
-        <link>/update/2015/07/19/configuration.html</link>
-        <guid isPermaLink="true">/update/2015/07/19/configuration.html</guid>
+        <link>https://j3.apispark.net/v1//blog//update/2015/07/19/configuration.html</link>
+        <guid isPermaLink="true">https://j3.apispark.net/v1//blog//update/2015/07/19/configuration.html</guid>
         
         
         <category>update</category>
@@ -41,8 +41,8 @@
 
 </description>
         <pubDate>Sat, 18 Jul 2015 15:10:06 -0700</pubDate>
-        <link>/jekyll/update/2015/07/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2015/07/18/welcome-to-jekyll.html</guid>
+        <link>https://j3.apispark.net/v1//blog//jekyll/update/2015/07/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://j3.apispark.net/v1//blog//jekyll/update/2015/07/18/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
