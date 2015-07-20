@@ -2,17 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>APISpark Journey</title>
-    <description>Personal log on the use of APISpark from zero experience.
+    <description>Complete newbie to REST APIs and Restlet&#39;s APISpark attempts learn about API terminology and technology.
 </description>
     <link>https://j4.apispark.net/v1/blog/</link>
     <atom:link href="https://j4.apispark.net/v1/blog/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Jul 2015 12:32:42 -0700</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2015 12:32:42 -0700</lastBuildDate>
+    <pubDate>Sun, 19 Jul 2015 17:34:27 -0700</pubDate>
+    <lastBuildDate>Sun, 19 Jul 2015 17:34:27 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Preparation</title>
-        <description>&lt;p&gt;Started preparations for the APISpark journey.&lt;/p&gt;
+        <title>Preparing Data for APISpark and Making Mistakes</title>
+        <description>&lt;p&gt;About a week ago, I decided to learn more about APIs and
+[APISpark] (http://restlet.com/technical-resources/apispark/guide).
+This is a bit daunting since I know very little about both
+programming and REST APIs.&lt;/p&gt;
+
+&lt;p&gt;I started off with the
+&lt;a href=&quot;http://restlet.com/technical-resources/apispark/tutorials/turn-spreadsheet-to-api&quot;&gt;Google Sheets to API tutorial&lt;/a&gt;.  This went fairly smoothly.  When
+I started to play around with POSTing data in the Google Sheet, I
+did have to ask someone from Restlet about the automatic generation
+of the primary key.  The &lt;em&gt;Value policy&lt;/em&gt; can be changed from the default &lt;code&gt;Auto-generated&lt;/code&gt; to to &lt;code&gt;Manual&lt;/code&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://j4.apispark.net/v1/blog/img/2015/07/pk-policy.jpg&quot; alt=&quot;Primary Key auto-generation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At this stage, I can read and write to a Google Sheets through a REST API on a
+cloud-based system.  I’m feeling good. I’ve learned about Primary Key
+generation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://j4.apispark.net/v1/blog/img/2015/07/primary_key_generation.png&quot; alt=&quot;Reading and Writing data to a Google Sheet&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I even go through the &lt;a href=&quot;http://restlet.com/technical-resources/apispark/tutorials/github&quot;&gt;tutorial to get data from a GitHub repository&lt;/a&gt; and publish the files as a REST API.&lt;/p&gt;
+
+&lt;p&gt;This is when the over-confidence kicks in. I decide to create a blog with Jekyll, push the files to GitHub, then sync the GitHub repository to APISpark for publishing.  In my mind, I’m thinking of the additional security and rate control I can add to the blog.&lt;/p&gt;
+
+&lt;p&gt;Although I got it working, I also realized that this is not a good use of APISpark. It’s a good learning experience, but not practical.  I’ve been thinking about building a site for NOAA surf forecast data instead.&lt;/p&gt;
+
+&lt;p&gt;In a future post, I’ll explain why you shouldn’t create your blog publishing
+platform in APISpark with Jekyll.  A better solution would have been to store the blog posts in some type of database and use an API key to publish the individual blogs. &lt;/p&gt;
+
 </description>
         <pubDate>Sun, 19 Jul 2015 15:10:06 -0700</pubDate>
         <link>https://j4.apispark.net/v1/blog/update/2015/07/19/configuration.html</link>

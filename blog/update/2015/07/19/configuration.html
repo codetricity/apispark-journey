@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Preparation</title>
-    <meta name="description" content="Personal log on the use of APISpark from zero experience.
+    <title>Preparing Data for APISpark and Making Mistakes</title>
+    <meta name="description" content="Complete newbie to REST APIs and Restlet's APISpark attempts learn about API terminology and technology.
 ">
 
     <link rel="stylesheet" href="https://j4.apispark.net/v1/blog/css/main.css">
@@ -57,12 +57,39 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Preparation</h1>
+    <h1 class="post-title">Preparing Data for APISpark and Making Mistakes</h1>
     <p class="post-meta">Jul 19, 2015</p>
   </header>
 
   <article class="post-content">
-    <p>Started preparations for the APISpark journey.</p>
+    <p>About a week ago, I decided to learn more about APIs and
+[APISpark] (http://restlet.com/technical-resources/apispark/guide).
+This is a bit daunting since I know very little about both
+programming and REST APIs.</p>
+
+<p>I started off with the
+<a href="http://restlet.com/technical-resources/apispark/tutorials/turn-spreadsheet-to-api">Google Sheets to API tutorial</a>.  This went fairly smoothly.  When
+I started to play around with POSTing data in the Google Sheet, I
+did have to ask someone from Restlet about the automatic generation
+of the primary key.  The <em>Value policy</em> can be changed from the default <code>Auto-generated</code> to to <code>Manual</code>. </p>
+
+<p><img src="https://j4.apispark.net/v1/blog/img/2015/07/pk-policy.jpg" alt="Primary Key auto-generation" /></p>
+
+<p>At this stage, I can read and write to a Google Sheets through a REST API on a
+cloud-based system.  I’m feeling good. I’ve learned about Primary Key
+generation.</p>
+
+<p><img src="https://j4.apispark.net/v1/blog/img/2015/07/primary_key_generation.png" alt="Reading and Writing data to a Google Sheet" /></p>
+
+<p>I even go through the <a href="http://restlet.com/technical-resources/apispark/tutorials/github">tutorial to get data from a GitHub repository</a> and publish the files as a REST API.</p>
+
+<p>This is when the over-confidence kicks in. I decide to create a blog with Jekyll, push the files to GitHub, then sync the GitHub repository to APISpark for publishing.  In my mind, I’m thinking of the additional security and rate control I can add to the blog.</p>
+
+<p>Although I got it working, I also realized that this is not a good use of APISpark. It’s a good learning experience, but not practical.  I’ve been thinking about building a site for NOAA surf forecast data instead.</p>
+
+<p>In a future post, I’ll explain why you shouldn’t create your blog publishing
+platform in APISpark with Jekyll.  A better solution would have been to store the blog posts in some type of database and use an API key to publish the individual blogs. </p>
+
 
   </article>
 
@@ -81,7 +108,7 @@
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>APISpark Journey</li>
-          <li><a href="mailto:coda@o3rocket.com">coda@o3rocket.com</a></li>
+          <li><a href="mailto:craig@o3rocket.com">craig@o3rocket.com</a></li>
         </ul>
       </div>
 
@@ -119,7 +146,7 @@
       </div>
 
       <div class="footer-col  footer-col-3">
-        <p class="text">Personal log on the use of APISpark from zero experience.
+        <p class="text">Complete newbie to REST APIs and Restlet's APISpark attempts learn about API terminology and technology.
 </p>
       </div>
     </div>
