@@ -35,7 +35,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/index.html">About</a>
+          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/index.hml">About</a>
           
         
           
@@ -80,18 +80,24 @@ API.</p>
 
 <p><img src="https://j4.apispark.net/v1/blog/img/2015/07/blog_screenshot.png" alt="Screenshot of Jekyll blog running on APIspark" /></p>
 
-<p>I set up a seperate configuration file for Jekyll and called it ‘_config_spark.yml’</p>
+<p>I set up a seperate configuration file for Jekyll and called it <code>_config_spark.yml</code></p>
 
-<p># Site settings
+<pre><code>  # Site settings
   title: APISpark Journey
-  description: &gt; # this means to ignore newlines until “baseurl:”
-  Complete newbie to REST APIs and Restlet’s APISpark attempts learn about
+  description: &gt; # this means to ignore newlines until "baseurl:"
+  Complete newbie to REST APIs and Restlet's APISpark attempts learn about
   API terminology and technology.
-  baseurl: “https://j4.apispark.net/v1/blog” # the subpath of your site, e.g. /blog/
+  baseurl: "https://j4.apispark.net/v1/blog" # the subpath of your site, e.g. /blog/
   twitter_username: craigoda1
   github_username:  codetricity
   # Build settings
-  markdown: kramdown</p>
+  markdown: kramdown
+</code></pre>
+
+<p>I then output HTML into a separate directory on my local computer with command.  The directory <code>/blog3/</code> is the destination directory</p>
+
+<pre><code> $ bundle exec jekyll build --config _config_spark.yml --destination ../blog3/
+</code></pre>
 
 
   </article>
