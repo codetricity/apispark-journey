@@ -11,7 +11,7 @@
 ">
 
     <link rel="stylesheet" href="https://j4.apispark.net/v1/blog/css/main.css">
-    <link rel="canonical" href="https://j4.apispark.net/v1/blog/index.html">
+    <link rel="canonical" href="https://j4.apispark.net/v1/blog/">
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="https://j4.apispark.net/v1/blog/index.html">APISpark Journey</a>
+    <a class="site-title" href="https://j4.apispark.net/v1/blog/">APISpark Journey</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,7 +35,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/index.html">About</a>
+          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/">About</a>
           
         
           
@@ -59,14 +59,6 @@
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 20, 2015</span>
-
-        <h2>
-          <a class="post-link" href="https://j4.apispark.net/v1/blog/update/2015/07/20/github-apispark-integration.html">Mistakes I Made Using Jekyll with APISpark</a>
-        </h2>
-      </li>
     
       <li>
         <span class="post-meta">Jul 19, 2015</span>

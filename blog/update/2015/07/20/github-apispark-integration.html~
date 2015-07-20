@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>APISpark Journey</title>
+    <title>Mistakes I Made Using Jekyll with APISpark</title>
     <meta name="description" content="Complete newbie to REST APIs and Restlet's APISpark attempts learn about API terminology and technology.
 ">
 
     <link rel="stylesheet" href="https://j4.apispark.net/v1/blog/css/main.css">
-    <link rel="canonical" href="https://j4.apispark.net/v1/blog/index.html">
+    <link rel="canonical" href="https://j4.apispark.net/v1/blog/update/2015/07/20/github-apispark-integration.html">
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="https://j4.apispark.net/v1/blog/index.html">APISpark Journey</a>
+    <a class="site-title" href="https://j4.apispark.net/v1/blog/">APISpark Journey</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,7 +35,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/index.html">About</a>
+          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/">About</a>
           
         
           
@@ -54,31 +54,47 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Mistakes I Made Using Jekyll with APISpark</h1>
+    <p class="post-meta">Jul 20, 2015</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 20, 2015</span>
+  <article class="post-content">
+    <p>I created my blog with Jekyll and used [APISpark] (http://restlet.com/technical-resources/apispark/guide) as the publishing platform.
+This wasn’t a good idea.</p>
 
-        <h2>
-          <a class="post-link" href="https://j4.apispark.net/v1/blog/update/2015/07/20/github-apispark-integration.html">Mistakes I Made Using Jekyll with APISpark</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 19, 2015</span>
+<p>About a year ago, I used Jekyll to publish blogs on GitHub Pages. This was
+straightforward and I liked Markdown. Also, several of my marketing friends had moved to Markdown and GitHub Pages for product promotional documents. If marketers are using git and GitHub to share stuff, I thought I would be cool and drop it into APISpark and then show off the security and rate limitations features.</p>
 
-        <h2>
-          <a class="post-link" href="https://j4.apispark.net/v1/blog/update/2015/07/19/configuration.html">Preparing Data for APISpark and Making Mistakes</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>Unfortunately, I didn’t think this through.</p>
 
-  <p class="rss-subscribe">subscribe <a href="https://j4.apispark.net/v1/blog/feed.xml">via RSS</a></p>
+<p>Although I learned about GitHub syncing with APISpark and the features of
+APISpark, this is a horrible
+project to learn how to organize APIs.  There’s really no reason to
+store these individual blog files into APISpark and expose them as an
+API.</p>
+
+<p>The good news is that I got it to work.</p>
+
+<p><img src="https://j4.apispark.net/v1/blog/img/2015/07/blog_screenshot.png" alt="Screenshot of Jekyll blog running on APIspark" /></p>
+
+<p>I set up a seperate configuration file for Jekyll and called it ‘_config_spark.yml’</p>
+
+<p># Site settings
+  title: APISpark Journey
+  description: &gt; # this means to ignore newlines until “baseurl:”
+  Complete newbie to REST APIs and Restlet’s APISpark attempts learn about
+  API terminology and technology.
+  baseurl: “https://j4.apispark.net/v1/blog” # the subpath of your site, e.g. /blog/
+  twitter_username: craigoda1
+  github_username:  codetricity
+  # Build settings
+  markdown: kramdown</p>
+
+
+  </article>
 
 </div>
 
