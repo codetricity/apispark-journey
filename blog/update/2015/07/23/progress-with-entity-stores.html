@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>APISpark Journey</title>
+    <title>Progress with Entity Stores</title>
     <meta name="description" content="Complete newbie to REST APIs and Restlet's APISpark attempts learn about API terminology and technology.
 ">
 
     <link rel="stylesheet" href="https://j4.apispark.net/v1/blog/css/main.css">
-    <link rel="canonical" href="https://j4.apispark.net/v1/blog/">
+    <link rel="canonical" href="https://j4.apispark.net/v1/blog/update/2015/07/23/progress-with-entity-stores.html">
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="https://j4.apispark.net/v1/blog/">APISpark Journey</a>
+    <a class="site-title" href="https://j4.apispark.net/v1/blog/index.html">APISpark Journey</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,7 +35,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/">About</a>
+          <a class="page-link" href="https://j4.apispark.net/v1/blog/about/index.html">About</a>
           
         
           
@@ -54,23 +54,39 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Progress with Entity Stores</h1>
+    <p class="post-meta">Jul 23, 2015</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 19, 2015</span>
+  <article class="post-content">
+    <p><img src="https://j4.apispark.net/v1/blog/img/2015/07/curl.png" alt="using curl" /></p>
 
-        <h2>
-          <a class="post-link" href="https://j4.apispark.net/v1/blog/update/2015/07/19/configuration.html">Preparing Data for APISpark and Making Mistakes</a>
-        </h2>
-      </li>
-    
-  </ul>
+<p>I made progress by going back to the very first APISpark Tutorial,
+<a href="http://restlet.com/technical-resources/apispark/tutorials/create-web-api">First API From Scratch</a>.
+With this tutorial, I stored the data directly in APISpark instead of importing it into
+<a href="http://restlet.com/technical-resources/apispark/tutorials/github">APISpark from GitHub</a>
+or <a href="http://restlet.com/technical-resources/apispark/tutorials/turn-spreadsheet-to-api">Google Sheets</a>.</p>
 
-  <p class="rss-subscribe">subscribe <a href="https://j4.apispark.net/v1/blog/feed.xml">via RSS</a></p>
+<p>Once I had the entity store set up, I published it as a Web API using the cog in the upper right-hand side of the screen.</p>
+
+<p><img src="https://j4.apispark.net/v1/blog/img/2015/07/exportweb.png" alt="Export Web API" /></p>
+
+<p>Once the API was deployed, I was able to access it with curl from the command line.  It was cool to be able to POST data so easily from a bash shell.</p>
+
+<p>In addition to <code>curl</code> I also learned <code>python -m json.tool</code> to convert the JSON output into something that was more easily read by humans.  Psychologically,
+it was more gratifying to run the POST, GET, and PUT commands from the curl command line than from inside of APISpark using Swagger. There’s a
+stronger feeling of the command going over the Internet and returning data.</p>
+
+<p>After this, I got into discussions with people at the Restlet marketing group about organizing data around bees. Initially, I put together
+a small database of sources for bee data.  At this point, I realized that the organization of the API endpoints is important.</p>
+
+<p>In addition to learning how to use APISpark, it seems like I will need to find a suitable source of data and also learn about API design.</p>
+
+
+  </article>
 
 </div>
 
